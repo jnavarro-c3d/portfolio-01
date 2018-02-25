@@ -15,11 +15,48 @@
 <!--index.js-->
 <script src="index.js"></script>
 <link rel="stylesheet" type="text/css" href="index.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-<h1 class="bold-reg-text-alternate capitalize"> Josiah Navarro </h1>
-<h2 class="bold-reg-text-alternate">Will this work?</h2>
+  <!--Non-collapsible navbar.-->
+  <nav class="navbar navbar-expand-md" id="noncollapsible-nav">
+    <a class="bold-reg-text-alternate capitalize navbar-brand" href="#">
+      Josiah Navarro</a>
+    <ul class="navbar-nav float-right-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="navbar-nav">
+        <a class="nav-link" href="#">Projects</a>
+      </li>
+      <li class="navbar-nav">
+        <a class="nav-link" href="#">Interests</a>
+      </li>
+    </ul>
+  </nav>
+  <!--Collapsible navbar.-->
+  <nav class="navbar navbar-light" id="collapsible-nav">
+    <a class="bold-reg-text-alternate capitalize navbar-brand" href="#">
+      Josiah Navarro</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+      data-target="#collapsibleNavList">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavList">
+      <ul class="navbar-nav float-right-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Interests</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </body>
 
 </html>
