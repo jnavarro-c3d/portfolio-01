@@ -31,7 +31,7 @@ header {
 }
 
 .navbar {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: white;
 }
 
 .navbar a {
@@ -75,5 +75,20 @@ header {
   font-size: 3.5em;
   text-align: center;
   margin: 25px 100px;
+  padding: 175px;
+  border-radius: 0;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+  color: white;
+}
+
+@media only screen and (max-width: 1250px) {
+  #large-screen-jumbotron-text {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  #small-screen-jumbotron-text {
+    display: none;
+  }
 }
