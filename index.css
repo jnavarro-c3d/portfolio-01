@@ -26,3 +26,19 @@
     display: none;
   }
 }
+
+#center-joker {
+  background-image: url("images/joker-1.png");
+  background-size: 1450px 828px;
+  background-position: 50% 120%;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 720px;
+}
+
+@media only screen and (max-width: 1000px) {
+  #center-joker {
+    background-size: 1000px 571px;
+    background-position: 50% -50%;
+  }
+}
