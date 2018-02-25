@@ -1,3 +1,23 @@
+@font-face {
+  font-family: anton;
+  src: url(fonts/Anton-Regular.ttf);
+}
+
+@font-face {
+  font-family: montserrat;
+  src: url(fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: montserrat;
+  font-weight: bold;
+  src: url(fonts/Montserrat-Bold.ttf);
+}
+
+body {
+  font-family: montserrat;
+}
+
 .capitalize {
   text-transform: uppercase;
 }
@@ -41,4 +61,10 @@
     background-size: 1000px 571px;
     background-position: 50% -50%;
   }
+}
+
+#central-joker-jumbotron {
+  font-size: 3.5em;
+  text-align: center;
+  margin: 25px 100px;
 }
