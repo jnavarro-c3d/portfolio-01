@@ -100,10 +100,6 @@ header {
 }
 
 .about-me-paragraphs {
-  margin: 25px;
-}
-
-.about-me-paragraphs h3 {
-  font-weight: bold;
-  border: solid 1px white;
+  margin-right: 25px;
+  border-right: solid 1px white;
 }
