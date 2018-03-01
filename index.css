@@ -111,3 +111,7 @@ header {
   margin-bottom: 20px;
   border: 1px solid white;
 }
+
+#community-college-of-aurora-gpa, #colorado-school-of-mines-gpa {
+  float: right;
+}
